@@ -16,7 +16,7 @@ function App() {
   function handleAddTodos(newTodo){
     const newTodoList  = [...todos, newTodo];
     persistData(newTodoList)
-    setTodos(newTodoList);
+    setTodos(newTodoList);ads
   } 
 
   function handleDeleteTodo(index) {
